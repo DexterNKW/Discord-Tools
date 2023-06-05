@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Discord Tools</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Discord Tools</h1>
+    <div class="content">
+      <label for="textbox">Inserisci il testo:</label>
+      <input type="text" id="textbox" placeholder="Inserisci il testo">
+      <div id="emoji-container">
+            <label for="emoji-button">Seleziona un'emoji:</label>
+            <button id="emoji-button">Emoji</button>
+            <div id="emoji-list" class="emoji-container"></div>
+      </div>
+      <div class="separator-section">
+        <label>Seleziona un separatore:</label>
+        <select id="separator-select">
+          <option value="|">|</option>
+          <option value="・">・</option>
+          <option value="│">│</option>
+          <option value="┊">┊</option>
+        </select>
+      </div>
+      <div class="spacing-section">
+        <label>Seleziona una spaziatura:</label>
+        <select id="spacing-select">
+          <option value="-">-</option>
+          <option value="_">_</option>
+          <option value="᲼">᲼</option>
+        </select>
+      </div>
+      <button id="convert-button">Converti</button>
+      <p id="formatted-text"></p>
+      <p id="copy-message" class="copy-message"></p>
+      <p class="attribution">Discord Tools - by <span id="user1">! 𝕯. 🤍</span> and <span id="user2">! Hxskyy.gg " 🐊</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
