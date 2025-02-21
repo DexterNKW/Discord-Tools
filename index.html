@@ -4,25 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Discord Tools</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" href="favicon/frame_0001.png" type="image/png" id="favicon">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
 </head>
 
 <body>
+  <div class="video-background">
+    <video autoplay loop muted>
+      <source src="background.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="overlay"></div>
   <div class="container">
-    <h1 class="title">Discord Tools</h1>
-    <div class="content">
+    <div class="banner">
+      <h1 class="title">Discord Tools</h1>
+    </div>
+    <div class="content" id="main-content">
       <label for="textbox">Inserisci il testo:</label>
       <input type="text" id="textbox" placeholder="Inserisci il testo">
       <div id="emoji-container">
-            <label for="emoji-button">Seleziona un'emoji:</label>
-            <button id="emoji-button">Emoji</button>
-            <div id="emoji-list" class="emoji-container"></div>
+        <label for="emoji-button">Seleziona un'emoji:</label>
+        <button id="emoji-button">Emoji</button>
       </div>
       <div class="separator-section">
         <label>Seleziona un separatore:</label>
         <select id="separator-select">
-          <option value="|">|</option>
+          <option value="｜">｜</option>
           <option value="・">・</option>
           <option value="│">│</option>
           <option value="┊">┊</option>
@@ -41,9 +52,14 @@
       <p id="copy-message" class="copy-message"></p>
       <p class="attribution">Discord Tools - by <span id="user1">! 𝕯. 🤍</span> and <span id="user2">! Hxskyy.gg " 🐊</span></p>
     </div>
+    <div id="emoji-picker-overlay" class="hidden">
+      <div id="emoji-picker-container">
+        <emoji-picker id="emoji-picker"></emoji-picker>
+        <button id="close-emoji-picker">Chiudi</button>
+      </div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
 
 </html>
-
