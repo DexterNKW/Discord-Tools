@@ -12,12 +12,17 @@
 </head>
 
 <body>
+  <div class="language-selector">
+    <label for="language-select">Lingua:</label>
+    <select id="language-select"></select>
+  </div>
   <div class="video-background">
     <video autoplay loop muted>
-      <source src="background.webm" type="video/webm">
+      <source src="media/vid/background.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
   </div>
+  <div class="wave-effect"></div>
   <div class="overlay"></div>
   <div class="container">
     <div class="banner">
@@ -26,29 +31,14 @@
     <div class="content" id="main-content">
       <label for="textbox">Inserisci il testo:</label>
       <input type="text" id="textbox" placeholder="Inserisci il testo">
-      <div id="emoji-container">
-        <label for="emoji-button">Seleziona un'emoji:</label>
-        <button id="emoji-button">Emoji</button>
-      </div>
-      <div class="separator-section">
-        <label>Seleziona un separatore:</label>
-        <select id="separator-select">
-          <option value="｜">｜</option>
-          <option value="・">・</option>
-          <option value="│">│</option>
-          <option value="┊">┊</option>
-        </select>
-      </div>
-      <div class="spacing-section">
-        <label>Seleziona una spaziatura:</label>
-        <select id="spacing-select">
-          <option value="-">-</option>
-          <option value="_">_</option>
-          <option value="᲼">᲼</option>
-        </select>
-      </div>
+      <label for="emoji-button">Seleziona un'emoji:</label>
+      <button id="emoji-button">Emoji</button>
+      <label for="separator-select">Seleziona un separatore:</label>
+      <select id="separator-select"></select>
+      <label for="spacing-select">Seleziona una spaziatura:</label>
+      <select id="spacing-select"></select>
       <button id="convert-button">Converti</button>
-      <p id="formatted-text"></p>
+      <p id="formatted-text" class="placeholder">Il risultato apparirà qui..</p>
       <p id="copy-message" class="copy-message"></p>
       <p class="attribution">Discord Tools - by <span id="user1">! 𝕯. 🤍</span> and <span id="user2">! Hxskyy.gg " 🐊</span></p>
     </div>
@@ -59,7 +49,7 @@
       </div>
     </div>
   </div>
-  <script src="script.js"></script>
+  <script type="module" src="js/main.js"></script>
 </body>
 
 </html>

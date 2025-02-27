@@ -1,0 +1,34 @@
+{
+     "languages": {
+       "it": {
+         "name": "Italiano",
+         "selectSeparator": "Seleziona un separatore:",
+         "selectSpacing": "Seleziona una spaziatura:",
+         "convertButton": "Converti",
+         "resultPlaceholder": "Il risultato apparirà qui..",
+         "copyMessage": "Il testo è stato copiato negli appunti.",
+         "attribution": "Discord Tools - by ! 𝕯. 🤍 and ! Hxskyy.gg 🐊",
+         "title": "Discord Tools",
+         "inactiveTitle": "DS Tools | Torna qua",
+         "insertText": "Inserisci il testo:",
+         "selectEmoji": "Seleziona un'emoji:",
+         "closeEmojiPicker": "Chiudi",
+         "languageLabel": "Lingua:"
+       },
+       "en": {
+         "name": "English",
+         "selectSeparator": "Select a separator:",
+         "selectSpacing": "Select a spacing:",
+         "convertButton": "Convert",
+         "resultPlaceholder": "The result will appear here..",
+         "copyMessage": "The text has been copied to the clipboard.",
+         "attribution": "Discord Tools - by ! 𝕯. 🤍 and ! Hxskyy.gg 🐊",
+         "title": "Discord Tools",
+         "inactiveTitle": "DS Tools | Come here",
+         "insertText": "Insert text:",
+         "selectEmoji": "Select an emoji:",
+         "closeEmojiPicker": "Close",
+         "languageLabel": "Language:"
+       }
+     }
+   }

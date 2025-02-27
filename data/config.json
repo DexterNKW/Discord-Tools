@@ -1,0 +1,14 @@
+{
+  "faviconUpdateInterval": 50,
+  "titleTypingSpeedRange": [50, 200],
+  "colors": {
+    "background": "#0D1B2A",
+    "text": "#E0E1DD",
+    "highlight": "#778DA9",
+    "medium": "#415A77",
+    "dark": "#1B263B",
+    "light": "#A9A9B3",
+    "white": "#FFFFFF",
+    "green": "#43B581"
+  }
+}

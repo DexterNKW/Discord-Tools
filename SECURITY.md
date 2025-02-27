@@ -4,8 +4,9 @@
 
 | Versione | Supportata         |
 | -------- | ------------------ |
-| 2.0.x    | :white_check_mark: |
-| 1.x.x    | :x:                |
+| 2.5.x    | :white_check_mark: |
+| 2.0.x    | :x: |
+| 1.x.x    | :x: |
 
 ## Segnalazione di una vulnerabilità
 
