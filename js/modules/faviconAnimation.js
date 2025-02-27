@@ -26,7 +26,7 @@ export function setupFaviconAnimation(langConfig) {
       isWindowActive = false;
       clearTimeout(faviconInterval);
       titleElement.textContent = langConfig.inactiveTitle;
-      favicon.href = "../media/img/favicon.png";
+      favicon.href = "media/img/favicon.png";
     } else {
       isWindowActive = true;
       currentFrame = 0;
